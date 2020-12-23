@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/k8dash-deploy/',
+    base: '/k8dash-pages/',
 title: "k8dash",
   description: null,
   themeConfig: {

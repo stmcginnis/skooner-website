@@ -23,8 +23,8 @@ deploy:
     skip-cleanup: true
     local_dir: docs/.vuepress/dist
     github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-    repo: k8dash-pages
+    repo: k8dash-deploy
     keep-history: true
-    target-branch: gh-pages
+    target-branch: master
     on:
         branch: master

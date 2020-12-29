@@ -20,6 +20,22 @@
       >{{ $siteTitle }}</span>
     </RouterLink>
 
+    <GithubButton
+      v-if="$site.themeConfig.repo"
+      :href="$site.themeConfig.repo"
+      class="repo-button"
+      data-icon="octicon-star"
+      data-size="small"
+      data-show-count="false"
+      aria-label="Star k8dash on GitHub"
+    >
+      {{
+        $site.themeConfig.repoButtonLabel 
+          ? $site.themeConfig.repoButtonLabel 
+          : 'Star'
+      }}
+    </GithubButton>
+
     <div
       class="links"
       :style="linksWrapMaxWidth ? {
@@ -41,6 +57,7 @@ import AlgoliaSearchBox from '@AlgoliaSearchBox'
 import SearchBox from '@SearchBox'
 import SidebarButton from '@theme/components/SidebarButton.vue'
 import NavLinks from '@theme/components/NavLinks.vue'
+import GithubButton from 'vue-github-button'
 
 export default {
   name: 'Navbar',
@@ -49,7 +66,8 @@ export default {
     SidebarButton,
     NavLinks,
     SearchBox,
-    AlgoliaSearchBox
+    AlgoliaSearchBox,
+    GithubButton
   },
 
   data () {

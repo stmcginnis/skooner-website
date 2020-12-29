@@ -4,6 +4,7 @@
         "docs:build": "vuepress build docs"
     },
     "dependencies": {
-        "vuepress": "^1.7.1"
+        "vuepress": "^1.7.1",
+        "vue-github-button": "^1.0.8"
     }
 }

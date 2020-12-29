@@ -3,8 +3,11 @@ home: true
 heroImage: /images/k8dash-logo-home.png
 heroText: null
 tagline: "A Kubernetes dashboard that helps you understand and manage your cluster at a glance."
-actionText: Get Started
-actionLink: https://github.com/indeedeng/k8dash
+actions:
+- text: Get Started
+  link: https://github.com/indeedeng/k8dash
+- text: Community
+  link: https://github.com/indeedeng/k8dash/discussions 
 features:
 - title: Monitor Cluster Health
   image: /images/monitor.png

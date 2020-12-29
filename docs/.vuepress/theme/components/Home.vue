@@ -24,15 +24,21 @@
         {{ data.tagline || $description || 'Welcome to your VuePress site' }}
       </p>
 
-      <p
-        v-if="data.actionText && data.actionLink"
-        class="action"
+      <div
+        v-if="data.actions && data.actions.length"
       >
-        <NavLink
-          class="action-button"
-          :item="actionLink"
-        />
-      </p>
+        <span
+          v-for="(action, index) in data.actions"
+          class="action" 
+        >
+          <a
+            class="action-button"
+            :href="action.link"
+          >
+          {{ action.text }}
+          </a>
+        </span>
+      </div>
     </header>
 
     <div
@@ -50,7 +56,6 @@
             :src="$withBase(feature.image)" 
             :alt="feature.alt" 
             width="75%"
-            align="center"
         />
         <p>{{ feature.details }}</p>
       </div>
@@ -79,13 +84,6 @@ export default {
     data () {
       return this.$page.frontmatter
     },
-
-    actionLink () {
-      return {
-        link: this.data.actionLink,
-        text: this.data.actionText
-      }
-    }
   }
 }
 </script>

@@ -15,13 +15,14 @@ module.exports = {
     slackInvite: siteData.slackInviteURL,
     slackChannel: siteData.slackChannelURL,
     docsDir: "docs",
-    search: true,
+    search: false,
+    searchPlaceholder: 'Search...',
     displayAllHeaders: true,
     // top bar
     nav: [
-      {text: 'Contribute', link: '/contribute/'},
-      {text: 'Community', link: '/community'},
-      {text: 'Brand Guidelines', link: '/brand/'}
+      {text: 'Overview', link: '/overview.html'},
+      {text: 'Documentation', link: '/documentation.html'},
+      {text: 'Community', link: '/community.html'}
       ]
   },
   //title: siteData.title,

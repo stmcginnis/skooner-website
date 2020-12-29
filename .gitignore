@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 node_modules/
 package-lock.json
 docs/.vuepress/public/.DS_Store
+||||||| cda7bc4
+=======
+node_modules/
+package-lock.json
+>>>>>>> 3c18f6b42da56f7301c88d1781d93c64fbc99cf4

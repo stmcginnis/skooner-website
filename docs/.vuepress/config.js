@@ -20,6 +20,7 @@ module.exports = {
     displayAllHeaders: true,
     // top bar
     nav: [
+      {text: 'Home', link: '/'},
       {text: 'Overview', link: '/overview.html'},
       {text: 'Documentation', link: '/documentation.html'},
       {text: 'Community', link: '/community.html'}

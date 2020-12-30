@@ -26,5 +26,30 @@ $navbarHeight = 6rem
 }
 
 .features {
-  align: center !important;
+  text-align: center !important;
 }
+
+.split-div {
+  border-top 1px solid $borderColor
+  padding 1.2rem 0
+  margin-top 2.5rem
+  display flex
+  flex-wrap wrap
+  align-items flex-start
+  align-content stretch
+  justify-content space-between
+}
+
+.each-div {
+  flex-grow 1
+  flex-basis 45%
+  max-width 45%
+  margin-left 0.25em
+}
+
+code {
+  word-wrap: break-word !important;
+  overflow-x: hidden !important;
+  font-size: 75%;
+}
+

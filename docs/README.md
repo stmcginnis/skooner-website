@@ -26,3 +26,35 @@ features:
   width: 25%
 footer: © 2020 k8dash
 ---
+::: slot quick-install
+
+### Install k8dash
+
+Install k8dash via the available YAML file.
+
+* Download [kubernetes-k8dash.yaml.&nbsp;](https://raw.githubusercontent.com/herbrandson/k8dash/master/kubernetes-k8dash.yaml)
+
+Deploy k8dash by running the following command:
+
+```sh
+kubectl apply -f https://raw.githubusercontent.com/
+indeedeng/k8dash/master/kubernetes-k8dash.yaml
+
+```
+
+See [k8dash installation](install.html) to learn more. 
+
+:::
+
+::: slot quick-start
+
+### Start in as little as a minute
+
+You can configure k8dash in multiple ways, making it totally customizable. 
+
+A few features you can install include: 
+
+- k8dash makes using OpenId Connect for authentication easy 
+- If you do not have an ingress server set up, you can utilize a NodePort service
+
+:::

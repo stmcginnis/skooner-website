@@ -44,7 +44,6 @@
     <div
       v-if="data.features && data.features.length"
       class="features"
-      align="center"
     >
       <div
         v-for="(feature, index) in data.features"
@@ -61,7 +60,14 @@
       </div>
     </div>
 
-    <Content class="theme-default-content custom" />
+    <div class="split-div">
+      <div class="each-div">
+        <Content slot-key="quick-install" />
+      </div>
+      <div class="each-div">
+        <Content slot-key="quick-start" />
+      </div>
+    </div>
 
     <div
       v-if="data.footer"

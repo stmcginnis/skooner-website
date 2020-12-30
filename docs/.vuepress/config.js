@@ -21,11 +21,11 @@ module.exports = {
     // top bar
     nav: [
       {text: 'Home', link: '/'},
-      {text: 'Overview', link: '/overview.html'},
-      {text: 'Documentation', link: '/documentation.html'},
-      {text: 'Contribute', link: '/contribute.html'},
-      {text: 'Brand', link: '/brand.html'},
-      {text: 'Community', link: '/community.html'}
+      {text: 'Overview', link: '/overview/'},
+      {text: 'Documentation', link: '/documentation/'},
+      {text: 'Contribute', link: '/contribute/'},
+      {text: 'Brand', link: '/brand/'},
+      {text: 'Community', link: '/community/'}
       ]
   },
   //title: siteData.title,

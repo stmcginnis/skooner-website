@@ -27,7 +27,7 @@ features:
 ---
 ::: slot quick-install
 
-### Install k8dash
+### Start in as little as a minute
 
 Install k8dash via the available YAML file.
 
@@ -41,13 +41,13 @@ indeedeng/k8dash/master/kubernetes-k8dash.yaml
 
 ```
 
-See [k8dash installation](install.html) to learn more. 
+See [k8dash installation](/install/) to learn more. 
 
 :::
 
 ::: slot quick-start
 
-### Start in as little as a minute
+### Customize k8dash
 
 You can configure k8dash in multiple ways, making it totally customizable. 
 

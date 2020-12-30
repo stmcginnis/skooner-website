@@ -6,7 +6,7 @@ tagline: "A Kubernetes dashboard that helps you understand and manage your clust
 actions:
 - text: Get Started
   link: https://github.com/indeedeng/k8dash
-- text: Community
+- text: Join the Community
   link: https://github.com/indeedeng/k8dash/discussions 
 features:
 - title: Monitor Cluster Health

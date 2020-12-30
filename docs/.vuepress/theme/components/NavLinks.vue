@@ -35,15 +35,15 @@
 
     <!-- install button -->
     <a
-      v-if="this.$page.path === '/install/'"
+      v-if="this.$page.path === '/install.html'"
         class="button-disabled"
     >
       {{ "Install" }}
     </a>
     <a
-      v-else="this.$page.path != '/install/'"
+      v-else="this.$page.path != '/install.html'"
         class="button"
-        href="/install/"
+        :href="$withBase('/install.html')"
     >
       {{ "Install" }}
     </a>

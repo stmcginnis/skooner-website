@@ -69,13 +69,8 @@
       </div>
     </div>
 
-    <div
-      v-if="data.footer"
-      class="footer"
-    >
-      {{ data.footer }}
-    </div>
   </main>
+
 </template>
 
 <script>

@@ -4,7 +4,10 @@
     <div class="theme-default-content">
       <h1>Page Not Found</h1>
 
-      <p><img src="/images/k8dash-logo-stacked.png" alt="k8dash logo" width="15%" /></p>
+      <p>
+      <img 
+       :src="$withBase('/images/k8dash-logo-stacked.png')" 
+       alt="k8dash logo" width="15%" /></p>
 
       <blockquote>{{ getMsg() }}</blockquote>
 

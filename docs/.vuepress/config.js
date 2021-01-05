@@ -4,7 +4,7 @@
 const siteData = require("./config-site/info");
 
 module.exports = {
-  base: '/k8dash-website/',
+  base: '/k8dash-pages/',
   themeConfig: {
     domain: siteData.hostname,
     twitter: siteData.twitter,
@@ -26,7 +26,19 @@ module.exports = {
       {text: 'Contribute', link: '/contribute/'},
       {text: 'Brand', link: '/brand/'},
       {text: 'Community', link: '/community/'}
-      ]
+      ],
+      sidebar: {
+        '/overview/': 
+        [{
+          sidebarDepth: 3,
+          collapsable: false,
+          children: [
+          '',
+          'install']
+        }]
+
+
+      }
   },
   //title: siteData.title,
   description: siteData.description,

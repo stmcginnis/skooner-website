@@ -16,7 +16,7 @@ module.exports = {
     slackChannel: siteData.slackChannelURL,
     docsDir: "docs",
     search: false,
-    searchPlaceholder: 'Search...',
+    searchPlaceholder: 'Search....',
     displayAllHeaders: true,
     // top bar
     nav: [

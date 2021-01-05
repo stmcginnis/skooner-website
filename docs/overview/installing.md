@@ -1,4 +1,4 @@
-# Install
+# Install 
 
 To Install and run k8dash on your Kubernetes cluster by following these steps:
 1. Download kubernetes-k8dash.yaml
@@ -27,7 +27,4 @@ spec:
           servicePort: 80
 ```
 3. Sign In
-   <ol type="a">
-   <li> Setting Up a Service Account Token
-    The first (and easiest) option is to create a dedicated service account. This can be accomplished using the following script. </li>
-
+   

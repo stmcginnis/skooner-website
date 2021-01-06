@@ -5,7 +5,7 @@ heroText: null
 tagline: "A Kubernetes dashboard that helps you understand and manage your cluster at a glance."
 actions:
 - text: Get Started
-  link: https://github.com/indeedeng/k8dash
+  link: https://github.com/indeedeng/k8dash 
 - text: Join the Community
   link: https://github.com/indeedeng/k8dash/discussions 
 features:

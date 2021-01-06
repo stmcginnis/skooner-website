@@ -20,8 +20,8 @@
       :href="$site.themeConfig.repo"
       class="repo-button"
       data-icon="octicon-star"
-      data-size="medium"
-      data-show-count="true"
+      data-size="small"
+      data-show-count="false"
       aria-label="Star k8dash on GitHub"
     >
       {{

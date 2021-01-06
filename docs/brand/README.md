@@ -1,0 +1,59 @@
+---
+title: Brand Guidelines
+---
+
+# {{ $frontmatter.title }}
+
+## Brand and Logo
+
+When you use the k8dash project name, please keep it in lower case, even at the beginning of a sentence.
+
+See k8dash’s logos below. You can also find [k8dash logos on GitHub](https://github.com/indeedeng/k8dash/tree/master/logo).
+
+### Primary Logo
+|White Variant|Purple Variant|
+|---|---|
+|<img :src="$withBase('/images/k8dash-primary-logo-white.png')" alt="k8dash primary logo white" class="img-with-border"/>|<img :src="$withBase('/images/k8dash-primary-logo-purple.png')" alt="k8dash primary logo purple" class="img-with-border"/>|
+
+
+### Secondary Logo
+|White Variant|Purple Variant|
+|---|---|
+|<img :src="$withBase('/images/k8dash-secondary-logo-white.png')" alt="k8dash secondary logo white" class="img-with-border"/>|<img :src="$withBase('/images/k8dash-secondary-logo-purple.png')" alt="k8dash secondary logo purple" class="img-with-border"/>|
+
+### Logo Mark
+|White Variant|Purple Variant|
+|---|---|
+|<img :src="$withBase('/images/k8dash-logo-mark-white.png')" alt="k8dash global website icon white" class="img-with-border"/>|<img :src="$withBase('/images/k8dash-logo-mark-purple.png')" alt="k8dash global website icon purple" class="img-with-border"/>|
+
+## Logo Usage
+The k8dash logo is available in full color and white accent. The full color logo should only appear against white backgrounds. The white accent logo should go against a contrasting color background.<br>
+
+When you use the logo, please follow these directives:
+* Do not size the primary logo to be under 1 inch for printing and 72px for the web.
+* Do not size the secondary logo to be under 0.75 inch for printing and 55px for the web.
+* Leave enough margin around the logo: leave the height of the logo in the top, bottom and both sides.
+* Do not distort the logo by changing its proportions.
+* Do not place text or other elements on top of the logo.
+* Do not rotate the logo.
+## Colors
+<img :src="$withBase('/images/purple.png')" alt="k8dash brand color primary purple" class="img-with-border"/><br>
+Primary Purple:<br>
+RGB: 104, 34, 170<br>
+HEX: #6822aa<br><br>
+<img :src="$withBase('/images/black.png')" alt="k8dash brand color grey" class="img-with-border"/><br>
+Grey:<br>
+RGB: 45, 45, 45<br>
+HEX: #2d2d2d<br><br>
+<img :src="$withBase('/images/green.png')" alt="k8dash brand color green" class="img-with-border"/><br>
+Green:<br>
+RGB: 50, 147, 111<br>
+HEX: #32936F<br><br>
+<img :src="$withBase('/images/gold.png')" alt="k8dash brand color yellow" class="img-with-border"/><br>
+Yellow:<br>
+RGB:163, 143, 52<br>
+HEX: #A38F34<br><br>
+<img :src="$withBase('/images/red.png')" alt="k8dash brand color red" class="img-with-border"/><br>
+Red:<br>
+RGB: 209, 73, 91<br>
+HEX: #D1495B

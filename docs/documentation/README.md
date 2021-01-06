@@ -12,7 +12,9 @@ More documentation coming soon.
 
 Once you have [k8dash running](/install/), familiarize yourself with the k8dash user interface.
 
-<img src="images/k8dash-screen.png" alt="k8dash user interface" class="img-with-border" />
+<img 
+:src="$withBase('/images/k8dash-screen.png')" alt="k8dash user interface" class="img-with-border"/>
+<br></br>
 
 |Section|Description|
 |---|---|

@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /images/k8dash-logo-home.png
+heroImage: /images/edited-k8dash-banner.png
 heroText: null
 tagline: "A Kubernetes dashboard that helps you understand and manage your cluster at a glance."
 actions:

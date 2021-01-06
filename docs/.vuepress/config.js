@@ -4,6 +4,7 @@
 const siteData = require("./config-site/info");
 
 module.exports = {
+  title: 'k8Dash',
   base: '/k8dash-website/',
   themeConfig: {
     domain: siteData.hostname,
@@ -34,8 +35,41 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'installing']
+          ]
+        }],
+        '/install/':
+        [{
+          sidebarDepth: 3,
+          collapsable: false,
+          children: [
+            '',
+          ]
+        }],
+        '/brand/':
+        [{
+          sidebarDepth: 3,
+          collapsable: false,
+          children: [
+            '',
+          ]
+        }],
+        '/documentation/':
+        [{
+          sidebarDepth: 3,
+          collapsable: false,
+          children: [
+            '',
+          ]
+        }],
+        '/contribute/':
+        [{
+          sidebarDepth: 3,
+          collapsable: false,
+          children: [
+            '',
+          ]
         }]
+
         }
   },
   //title: siteData.title,

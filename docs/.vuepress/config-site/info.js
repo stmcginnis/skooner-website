@@ -4,7 +4,6 @@
  */
 
 module.exports = {
-  title: "k8dash",
   description: "A Kubernetes dashboard to manage your cluster.",
   twitter: "",
   author: "",

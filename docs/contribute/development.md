@@ -1,12 +1,12 @@
-## Development 
-### Prerequisites
+# Development 
+## Prerequisites
 A running Kubernetes cluster. Installing and running [minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/) is an easy way to fulfill this prerequisite. After you install `minikube, run it with the minikube start --driver=docker` command.
 Once the cluster is up and running, create some login credentials as described in Logging In.
-### High-level Architecture
+## High-level Architecture
 k8dash has two main components:
 * [Client-side](#client-side)
 * [Server-side](#server-side)
-#### Client Side
+### Client Side
 The k8dash client is a React application (using TypeScript) with minimal other dependencies. k8dash’s client-side architecture consists of:
 * A React application built with create-react-app
 * Sass
@@ -19,7 +19,7 @@ To run the client:
 2. Run `npm i` and then `npm start`. 
 This will open up a browser window to your local k8dash dashboard. If everything compiles correctly, the site will load and you will see the following error message: `Unhandled Rejection (Error): Api request error: Forbidden....` 
 To close the message, click X (top right). After you close the message, you should see the UI where you can enter your token.
-#### Server Side
+### Server Side
 The k8dash server-side code in index.js is a proxy to the Kubernetes API consisting of less than 200 lines of code. k8dash’s client-side architecture consists of:
 * @kubernetes/client-node, the Kubernetes npm module
 * Express webserver

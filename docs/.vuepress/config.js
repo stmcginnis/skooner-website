@@ -4,7 +4,7 @@
 const siteData = require("./config-site/info");
 
 module.exports = {
-  title: 'k8Dash',
+  title: 'k8dash',
   base: '/k8dash-website/',
   themeConfig: {
     domain: siteData.hostname,
@@ -17,19 +17,20 @@ module.exports = {
     slackChannel: siteData.slackChannelURL,
     docsDir: "docs",
     search: false,
+    searchMaxSuggestions: 10,
     searchPlaceholder: 'Search....',
     displayAllHeaders: true,
     // top bar
     nav: [
-      {text: 'Home', link: '/'},
+      //{text: 'Home', link: '/'},
       {text: 'Overview', link: '/overview/'},
       {text: 'Documentation', link: '/documentation/'},
       {text: 'Contribute', link: '/contribute/'},
-      {text: 'Brand', link: '/brand/'},
-      {text: 'Community', link: '/community/'}
+      //{text: 'Brand', link: '/brand/'},
+      //{text: 'Community', link: '/community/'}
       ],
       sidebar: {
-        '/overview/': 
+        '/overview/':
         [{
           sidebarDepth: 3,
           collapsable: false,
@@ -45,20 +46,13 @@ module.exports = {
             '',
           ]
         }],
-        '/brand/':
-        [{
-          sidebarDepth: 3,
-          collapsable: false,
-          children: [
-            '',
-          ]
-        }],
         '/documentation/':
         [{
           sidebarDepth: 3,
           collapsable: false,
           children: [
             '',
+            'brand'
           ]
         }],
         '/contribute/':
@@ -67,6 +61,8 @@ module.exports = {
           collapsable: false,
           children: [
             '',
+            'path',
+            'development'
           ]
         }]
 

@@ -2,7 +2,7 @@
 home: true
 heroImage: /images/edited-k8dash-banner.png
 heroText: null
-tagline: "A Kubernetes dashboard that helps you understand and manage your cluster at a glance."
+tagline: A Kubernetes dashboard that helps you understand & manage your cluster at a glance.
 actions:
 - text: Get Started
   link: https://github.com/indeedeng/k8dash 
@@ -58,4 +58,4 @@ A few features you can install include:
 
 :::
 
-<Footer/>
+

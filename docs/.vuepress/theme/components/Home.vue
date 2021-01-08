@@ -7,7 +7,7 @@
       <img
         v-if="data.heroImage"
         :src="$withBase(data.heroImage)"
-        :alt="data.heroAlt || 'hero'"
+        :alt="data.heroAlt || 'A Kubernetes dashboard that helps you understand and manage your cluster at a glance.'"
       >
 
       <h1
@@ -99,18 +99,20 @@ export default {
     text-align center
     img
       max-width: 100%
-      max-height 280px
+      max-height 100%
       display block
       margin 3rem auto 1.5rem
+      align center
     h1
       font-size 3rem
     h1, .description, .action
       margin 1.8rem auto
     .description
-      max-width 35rem
-      font-size 1.6rem
-      line-height 1.3
-      color lighten($textColor, 40%)
+      display none
+      // max-width 35rem
+      // font-size 1.6rem
+      // line-height 1.6
+      //color lighten($textColor, 40%)
     .action-button
       display inline-block
       font-size 1.2rem
@@ -157,6 +159,17 @@ export default {
     .feature
       max-width 100%
       padding 0 2.5rem
+    .hero
+      img
+        display none
+        aria display none
+      .description
+        display inherit
+        max-width 35rem
+        font-size 1.4rem
+        font-weight 500
+        line-height 1.7
+        color #3a5169
 
 @media (max-width: $MQMobileNarrow)
   .home

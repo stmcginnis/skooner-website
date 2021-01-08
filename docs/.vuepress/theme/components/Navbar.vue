@@ -21,7 +21,7 @@
       class="repo-button"
       data-icon="octicon-star"
       data-size="small"
-      data-show-count="false"
+      data-show-count="true"
       aria-label="Star k8dash on GitHub"
     >
       {{
@@ -115,10 +115,10 @@ $navbar-horizontal-padding = 1.5rem
   a, span, img
     display inline-block
   .logo
-    height $navbarHeight - 1.4rem
-    min-width $navbarHeight - 1.4rem
+    height 35px
+    width 175px
     margin-right 0.8rem
-    vertical-align top
+    margin-top .35rem
   .site-name
     font-size 1.3rem
     font-weight 600
@@ -129,7 +129,7 @@ $navbar-horizontal-padding = 1.5rem
     box-sizing border-box
     background-color white
     white-space nowrap
-    font-size 0.9rem
+    font-size 1rem
     position absolute
     right $navbar-horizontal-padding
     top $navbar-vertical-padding
@@ -150,4 +150,9 @@ $navbar-horizontal-padding = 1.5rem
       overflow hidden
       white-space nowrap
       text-overflow ellipsis
+    .logo
+      height 25px
+      width 125px
+      margin-right 0.8rem
+      margin-top .9rem
 </style>

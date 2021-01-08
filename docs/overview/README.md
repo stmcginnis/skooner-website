@@ -61,3 +61,5 @@ Octant is an extensible platform that features real-time updates and works as an
 
 [Lens](https://k8slens.dev/)[(GitHub)](https://github.com/lensapp/lens)<br>
 Lens, created by VMWare, is an installed desktop application. Lens bills itself as a Kubernetes IDE and offers real-time cluster state visualization and multi cluster management for hundreds of clusters. With Lens, you can manage extra large clusters, up to 25K pods. Prometheus powers resource utilization charts and trends with history. Lens also supports terminal access to nodes and containers. However, because Lens is an installed desktop application, you can’t share links with others.
+
+<Footer/>

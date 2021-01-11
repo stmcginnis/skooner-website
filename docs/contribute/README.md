@@ -1,15 +1,13 @@
 # How to contribute
 
 #### [GitHub](https://github.com/indeedeng/k8dash) 
-This is where the code lives. Feel free to report and resolve issues, ask questions, and more in our GitHub repo.
+This is where the code lives. Report issues, [resolve issues](https://github.com/indeedeng/k8dash/issues), ask questions, and help us make the product better. Read our [Contributing Guidelines](https://github.com/indeedeng/k8dash/blob/master/CONTRIBUTING.md) for more information.
 
 #### [GitHub Discussions](https://github.com/indeedeng/k8dash/discussions)
-Chat with the project founder, maintainers, contributors, and users on GitHub Discussions. Don’t miss virtual talk announcements and planning call invites.
+Reach out and chat with the project founder, maintainers, contributors, and users. Don’t miss virtual talk announcements and planning call invites.
 
-We’re always looking for new contributions. If you would like to contribute, see the [list of issues](https://github.com/indeedeng/k8dash/issues) in GitHub or reach out to us on GitHub Discussions. You can also learn more by reading our [Contributing Guidelines](https://github.com/indeedeng/k8dash/blob/master/CONTRIBUTING.md).
-
-
-The k8dash team is also looking for additional maintainers. If you’re interested, you can learn more by reading [Path to Maintainership](path.html).
+#### Become a Maintainer
+The k8dash team is always looking for additional maintainers. If you’re interested, continue to [Path to Maintainership](path.html).
 
 
 

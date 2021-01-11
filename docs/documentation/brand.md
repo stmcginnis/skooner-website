@@ -29,7 +29,7 @@ See k8dash’s logos below. You can also find [k8dash logos on GitHub](https://g
 ## Logo Usage
 The k8dash logo is available in full color and white accent. The full color logo should only appear against white backgrounds. The white accent logo should go against a contrasting color background.<br>
 
-When you use the logo, please follow these directives:
+When you use the logo, follow these directives:
 * Do not size the primary logo to be under 1 inch for printing and 72px for the web.
 * Do not size the secondary logo to be under 0.75 inch for printing and 55px for the web.
 * Leave enough margin around the logo: leave the height of the logo in the top, bottom and both sides.

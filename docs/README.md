@@ -17,12 +17,12 @@ features:
 - title: Fast and Live Metrics
   image: /images/fast.png
   alt: lightening bolt
-  details: Benefit from a Kubernetes dashboard that automatically refreshes and updates in real time.
+  details: Benefit from a Kubernetes dashboard that automatically refreshes and updates.
   width: 25%
 - title: Responsive UI
   image: /images/responsive.png
   alt: responsive icon
-  details: Monitor your cluster while on-the-go via the 100% responsive UI that runs on your phone or tablet.
+  details: Monitor your cluster on your phone or tablet utilizing the 100% responsive UI.
   width: 25%
 ---
 ::: slot quick-install
@@ -31,7 +31,7 @@ features:
 
 Install k8dash via the available YAML file.
 
-* Download [kubernetes-k8dash.yaml.&nbsp;](https://raw.githubusercontent.com/herbrandson/k8dash/master/kubernetes-k8dash.yaml)
+* Download [kubernetes-k8dash.yaml &nbsp;](https://raw.githubusercontent.com/herbrandson/k8dash/master/kubernetes-k8dash.yaml)
 
 Deploy k8dash by running the following command:
 
@@ -51,10 +51,10 @@ See [k8dash installation](/install/) to learn more.
 
 You can configure k8dash in multiple ways, making it totally customizable. 
 
-A few features you can install include: 
+Features you can install include 
 
-- k8dash makes using OpenID Connect for authentication easy 
-- If you do not have an ingress server set up, you can utilize a NodePort service
+- [OpenID Connect](install/#running-oidc-on-k8dash) for easy authentication
+- [NodePort](install/#running-k8dash-with-nodeport) for instances where you do not have an ingress server set up
 
 :::
 

@@ -2,14 +2,14 @@
 
 ## Installing k8dash on Kubernetes Cluster
 
-To Install and run k8dash on your Kubernetes cluster by following these steps:
-1. Download kubernetes-k8dash.yaml
+To Install and run k8dash on your Kubernetes cluster
+1. Download [kubernetes-k8dash.yaml](https://raw.githubusercontent.com/herbrandson/k8dash/master/kubernetes-k8dash.yaml).
 2. Deploy k8dash by running the following command:
 ```sh
 kubectl apply -f 
 https://raw.githubusercontent.com/herbrandson/k8dash/master/kubernetes-k8dash.yaml
 ```
-To access k8dash, you must make it publicly visible. If you have an ingress server setup, you can accomplish by adding a route like the following:
+To access k8dash, you must make it publicly visible. If you have an ingress server setup, you can accomplish this by adding a route:
 ```sh
 kind: Ingress
 apiVersion: extensions/v1beta1
@@ -29,8 +29,7 @@ spec:
           servicePort: 80
 ```
 3. Sign In
-      * Setting Up a Service Account Token <br>
-      The first (and easiest) option is to create a dedicated service account. This can be accomplished using the following script:
+      * The easiest option to sign in is to create a dedicated service account and use its token. This can be accomplished using the following script:
         ```sh
         # Create the service account in the current namespace (we assume default)
         kubectl create serviceaccount k8dash-sa
@@ -45,9 +44,7 @@ spec:
         kubectl describe secret k8dash-sa-token-xxxxx
         ```
         Retrieve the `token` value from the secret and enter it into the login screen to access the dashboard.
-      * You can also log in to k8dash with OIDC
-4. Optional: Use NodePort with k8dash
-
+      * You can also log in to k8dash with [OIDC](#running-oidc-on-k8dash) or [NodePort](#running-k8dash-with-nodeport).
 
 ## Installing Metrics Server
 

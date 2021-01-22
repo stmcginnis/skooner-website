@@ -5,7 +5,6 @@ const siteData = require("./config-site/info");
 
 module.exports = {
   title: 'k8dash',
-  base: '/k8dash-website/',
   themeConfig: {
     domain: siteData.hostname,
     twitter: siteData.twitter,

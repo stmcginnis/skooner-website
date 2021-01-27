@@ -10,7 +10,7 @@ It has received over 660 GitHub stars and over 1.1 million Docker Hub pulls.<br>
 
 In May, 2020, Indeed Engineering adopted the k8dash project. k8dash is installed as a standard at Indeed.
 
-Please star the project at [github.com/indeedeng/k8dash.](github.com/indeedeng/k8dash)
+Please star the project at [github.com/indeedeng/k8dash.](https://github.com/indeedeng/k8dash)
 
 ### k8dash desktop
 

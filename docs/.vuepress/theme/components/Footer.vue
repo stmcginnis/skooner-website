@@ -1,30 +1,57 @@
+$page-footer-desktop-height: 10rem;
 <template>
-  <div class="footer">
-    <p>
-    <style text-align="right">
-    &copy; k8dash 2020.</p></style>
-    <p>
-      <a href="https://twitter.com/IndeedEng">
-        <img 
-          :src="$withBase('/images/twitter.png')" 
-          alt="twitter icon" 
-          width="20px" 
-        />
-      </a> 
-      <a href="https://github.com/indeedeng/k8dash">
-        <img 
-        :src="$withBase('/images/github.png')" 
-        alt="github icon" 
-        width="20px" 
-      />
-      </a>
-    </p>
-    <p>k8dash is licensed under 
-      <a 
-        href="https://raw.githubusercontent.com/indeedeng/k8dash/master/LICENSE"
-        >
-        Apache License 2.0</a>.
-    </p>
-  </div>
+<div class="footer-cncf">
+<br><br>
+   <h4>k8dash is a CNCF Sandbox project</h4>
+      <img src="/images/cncf.png" alt="Cloud Native Computing Foundation Logo">
+      <br><br>
+      <p>k8dash was originally created by <a href="https://opensource.indeedeng.io/" target=”_blank” aria-label="Link opens in new tab">Indeed</a> and made successful by its community</a>.</p>
+      <br>
+      <hr>
+      <p>
+        <span class="copyright">
+       &nbsp;&nbsp; © Copyright The k8dash Authors <br>
+        <b>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/cncf/foundation/blob/master/code-of-conduct.md" target=”_blank” aria-label="Link opens in new tab">Code of Conduct</a></b>
+        </span>
+        <span class="footer-links">
+          <a href="https://twitter.com/IndeedEng" target=”_blank”>
+            <img 
+              :src="$withBase('/images/twitter.png')" 
+              alt="twitter icon" 
+              width="20px" 
+            />
+          </a> 
+          <a href="https://github.com/indeedeng/k8dash" target=”_blank”>
+            <img 
+            :src="$withBase('/images/github.png')" 
+            alt="github icon" 
+            width="20px" 
+          />
+          </a>
+          &nbsp;&nbsp;
+          <br>
+        </span>
+        <br><br>
+      </p>
+      </div>
+</div>
 </template>
+
+<style lang="stylus">
+
+@media (min-width: $MQMobile + 1) 
+
+  // this spaces the footer far enough down as to
+  // not overlap the sidebar at any point on
+  // larger screens.
+  .footer-cncf {
+    height: $page-footer-desktop-height;
+
+    // // this puts the footer above the bottom part
+    // // of the fixed sidebar on larger screens
+    position: relative;
+    z-index: 10;
+  }
+
+  </style>
 

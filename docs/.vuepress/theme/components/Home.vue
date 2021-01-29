@@ -1,3 +1,4 @@
+$page-footer-border: 1px solid $color-7;
 <template>
   <main
     class="home"

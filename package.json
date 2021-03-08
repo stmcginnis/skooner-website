@@ -8,6 +8,7 @@
         "vue-github-button": "^1.0.8"
     },
     "devDependencies": {
+        "@vuepress/plugin-google-analytics": "^1.8.2",
         "vuepress": "^1.8.0"
     }
 }

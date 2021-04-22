@@ -4,6 +4,14 @@
 const siteData = require("./config-site/info");
 
 module.exports = {
+  plugins: [
+    [
+      '@vuepress/google-analytics', // adds google analytics plugin
+        {
+          'ga': 'UA-90780-24' // UA-00000000-0
+        }
+    ]
+          ],
   title: 'k8dash',
   themeConfig: {
     domain: siteData.hostname,

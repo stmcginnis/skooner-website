@@ -11,7 +11,7 @@ module.exports = {
   repo: "https://github.com/indeedeng/k8dash",
   repoButtonLabel: "Star",
   logo: "/images/k8dash-secondary-logo-white-navbar.png",
-  hostname: "https://k8dash.io",
+  hostname: "https://skooner.io",
   slackInviteURL: "",
   slackChannelURL: ""
 }

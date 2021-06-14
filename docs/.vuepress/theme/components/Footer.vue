@@ -2,15 +2,15 @@ $page-footer-desktop-height: 10rem;
 <template>
 <div class="footer-cncf">
 <br><br>
-   <h4>k8dash is a CNCF Sandbox project</h4>
+   <h4>Skooner is a CNCF Sandbox project</h4>
       <img src="/images/cncf.png" alt="Cloud Native Computing Foundation Logo">
       <br><br>
-      <p>k8dash was originally created by <a href="https://opensource.indeedeng.io/" target=”_blank” aria-label="Link opens in new tab">Indeed</a> and made successful by its community</a>.</p>
+      <p>Skooner was originally created by <a href="https://opensource.indeedeng.io/" target=”_blank” aria-label="Link opens in new tab">Indeed</a> and made successful by its community</a>.</p>
       <br>
       <hr>
       <p>
         <span class="copyright">
-       &nbsp;&nbsp; © Copyright The k8dash Authors <br>
+       &nbsp;&nbsp; © Copyright The Skooner Authors <br>
         <b>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/cncf/foundation/blob/master/code-of-conduct.md" target=”_blank” aria-label="Link opens in new tab">Code of Conduct</a></b>
         </span>
         <span class="footer-links">
@@ -21,7 +21,7 @@ $page-footer-desktop-height: 10rem;
               width="20px" 
             />
           </a> 
-          <a href="https://github.com/indeedeng/k8dash" target=”_blank”>
+          <a href="https://github.com/skooner-k8s/skooner" target=”_blank”>
             <img 
             :src="$withBase('/images/github.png')" 
             alt="github icon" 

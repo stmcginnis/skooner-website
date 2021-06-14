@@ -2,18 +2,22 @@
 title: Documentation
 ---
 
+::: warning PSA
+k8dash is now Skooner! Please bear with us as we update our documentation to reflect this change.
+:::
+
 # {{ $frontmatter.title }}
 
 ::: tip
 More documentation coming soon.
 :::
 
-## Understanding the k8dash UI
+## Understanding the Skooner UI
 
-Once you have [k8dash running](/install/), familiarize yourself with the k8dash user interface.
+Once you have [Skooner running](/install/), familiarize yourself with the Skooner user interface.
 
 <!--<img 
-:src="$withBase('/images/k8dash-screen.png')" alt="k8dash user interface" class="img-with-border"/>
+:src="$withBase('/images/k8dash-screen.png')" alt="Skooner user interface" class="img-with-border"/>
 <br></br> -->
 
 |Section|Description|
@@ -27,4 +31,4 @@ Once you have [k8dash running](/install/), familiarize yourself with the k8dash 
 |**Ingress**| Manage configurations. |
 |**Storage**| Manage persistent volumes and claims. |
 
-k8dash also includes sections for services, replicas, and more. 
+Skooner also includes sections for services, replicas, and more. 

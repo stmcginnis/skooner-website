@@ -1,13 +1,21 @@
+---
+title: Development
+---
+
+::: warning PSA
+k8dash is now Skooner! Please bear with us as we update our documentation to reflect this change.
+:::
+
 # Development 
 ## Prerequisites
 A running Kubernetes cluster. Installing and running [minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/) is an easy way to fulfill this prerequisite. After you install minikube, run it with the `minikube start --driver=docker` command.
 Once the cluster is up and running, create some login credentials as described in [Install](/install).
 ## High-level Architecture
-k8dash has two main components:
+Skooner has two main components:
 * [Client-side](#client-side)
 * [Server-side](#server-side)
 ### Client Side
-The k8dash client is a React application (using TypeScript) with minimal other dependencies. k8dash’s client-side architecture consists of
+The Skooner client is a React application (using TypeScript) with minimal other dependencies. Skooner’s client-side architecture consists of
 * a React application built with create-react-app
 * SASS
 * minimal third-party dependencies<br>
@@ -21,10 +29,10 @@ The client-side code is in the `client > src folder`. Within this folder you can
 To run the client:
 1. Open a new terminal tab and navigate to the `/client` directory.
 2. Run `npm i` and then `npm start`. 
-This will open up a browser window to your local k8dash dashboard. If everything compiles correctly, the site will load and you will see the following error message: `Unhandled Rejection (Error): Api request error: Forbidden....` 
+This will open up a browser window to your local Skooner dashboard. If everything compiles correctly, the site will load and you will see the following error message: `Unhandled Rejection (Error): Api request error: Forbidden....` 
 To close the message, click X (top right). After you close the message, you should see the UI where you can enter your token.
 ### Server Side
-The k8dash server-side code in index.js is a proxy to the Kubernetes API consisting of less than 200 lines of code. k8dash’s client-side architecture consists of:
+The Skooner server-side code in index.js is a proxy to the Kubernetes API consisting of less than 200 lines of code. Skooner’s client-side architecture consists of:
 * @kubernetes/client-node, the Kubernetes npm module
 * Express webserver
 * Node JS

@@ -12,7 +12,7 @@ module.exports = {
         }
     ]
           ],
-  title: 'k8dash',
+  title: 'Skooner',
   themeConfig: {
     domain: siteData.hostname,
     twitter: siteData.twitter,

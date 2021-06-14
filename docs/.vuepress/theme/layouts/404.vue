@@ -12,7 +12,7 @@
       <blockquote>{{ getMsg() }}</blockquote>
 
       <RouterLink to="/">
-        Back to k8dash home
+        Back to Skooner home
       </RouterLink>
     </div>
   </div>

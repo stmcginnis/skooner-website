@@ -7,10 +7,10 @@ module.exports = {
   description: "A Kubernetes dashboard to manage your cluster.",
   twitter: "",
   author: "",
-  websiteRepo: "https://github.com/indeedeng/k8dash-site",
-  repo: "https://github.com/indeedeng/k8dash",
+  websiteRepo: "https://github.com/indeedeng/skooner-website",
+  repo: "https://github.com/skooner-k8s/skooner",
   repoButtonLabel: "Star",
-  logo: "/images/k8dash-secondary-logo-white-navbar.png",
+  logo: "/images/Skooner-Logo-Horizontal-COLOR.png",
   hostname: "https://skooner.io",
   slackInviteURL: "",
   slackChannelURL: ""

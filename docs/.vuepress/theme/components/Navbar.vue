@@ -22,7 +22,7 @@
       data-icon="octicon-star"
       data-size="small"
       data-show-count="true"
-      aria-label="Star k8dash on GitHub"
+      aria-label="Star Skooner on GitHub"
     >
       {{
         $site.themeConfig.repoButtonLabel 

@@ -1,31 +1,39 @@
+---
+title: Overview
+---
+
+::: warning PSA
+k8dash is now Skooner! Please bear with us as we update our documentation to reflect this change.
+:::
+
 # Overview
 
-k8dash (pronounced /kāt,daSH/ or "Kate dash") is an open source Kubernetes dashboard that helps you visually understand the concepts of your cluster. Via the dashboard, you can manage your cluster's components and gain an in-depth look at its health and viability. 
+Skooner is an open source Kubernetes dashboard that helps you visually understand the concepts of your cluster. Via the dashboard, you can manage your cluster's components and gain an in-depth look at its health and viability. 
 
-## k8dash at a glance
+## Skooner at a glance
 
-k8dash was first released in March 2019.<br>
+Skooner was first released in March 2019.<br>
 
 It has received over 660 GitHub stars and over 1.1 million Docker Hub pulls.<br>
 
-In May, 2020, Indeed Engineering adopted the k8dash project. k8dash is installed as a standard at Indeed.
+In May, 2020, Indeed Engineering adopted the Skooner project. Skooner is installed as a standard at Indeed.
 
-Please star the project at [github.com/indeedeng/k8dash.](https://github.com/indeedeng/k8dash)
+Please star the project at [github.com/skooner-k8s/skooner.](https://github.com/skooner-k8s/skooner)
 
-### k8dash desktop
+### Skooner desktop
 
 <img 
-:src="$withBase('/images/k8dash-screen.png')" alt="k8dash user interface" class="img-with-border"/>
+:src="$withBase('/images/k8dash-screen.png')" alt="Skooner user interface" class="img-with-border"/>
 <br></br>
 
-### k8dash mobile
+### Skooner mobile
 
 <img 
-:src="$withBase('/images/k8dash-mobile.png')" alt="k8dash mobile user interface" class="img-with-border"/>
+:src="$withBase('/images/k8dash-mobile.png')" alt="Skooner mobile user interface" class="img-with-border"/>
 
-### k8dash features
+### Skooner features
 
-With k8dash, you can
+With Skooner, you can
 - fully manage your cluster, including namespaces, nodes, pods, replica sets, deployments, storage, RBAC, etc.
 - learn the status of components, which pods are deployed, and which pods or deployments use the most resources
 - benefit from a Kubernetes dashboard that automatically refreshes and updates in real time
@@ -35,11 +43,11 @@ With k8dash, you can
 - update and scale your cluster via the Resource YAML Editor, which includes inline API docs that describe each field
 - employ a Simple Open ID integration with no special proxies required
 
-If you’re already using OIDC to secure your cluster, k8dash makes extending this to your dashboards easy. Configure 2-3 environment variables and you’re up and running. No special authenticating proxies or other complicated configurations are required.
+If you’re already using OIDC to secure your cluster, Skooner makes extending this to your dashboards easy. Configure 2-3 environment variables and you’re up and running. No special authenticating proxies or other complicated configurations are required.
 
-## Why k8dash?
+## Why Skooner?
 
-|Feature|k8dash|Octant|Lens|k9s|Default Web UI|
+|Feature|Skooner|Octant|Lens|k9s|Default Web UI|
 |---|---|---|---|---|---|---|---|
 |<nobr>**Web based (no download required)**</nobr>|x| | | | |x|
 |**Cluster management**|x|x|x|x|x|x|

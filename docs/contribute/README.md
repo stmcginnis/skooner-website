@@ -1,13 +1,21 @@
+---
+title: Contribute
+---
+
+::: warning PSA
+k8dash is now Skooner! Please bear with us as we update our documentation to reflect this change.
+:::
+
 # How to contribute
 
-#### [GitHub](https://github.com/indeedeng/k8dash) 
-This is where the code lives. Report issues, [resolve issues](https://github.com/indeedeng/k8dash/issues), ask questions, and help us make the product better. Read our [Contributing Guidelines](https://github.com/indeedeng/k8dash/blob/master/CONTRIBUTING.md) for more information.
+#### [GitHub](https://github.com/skooner-k8s/skooner) 
+This is where the code lives. Report issues, [resolve issues](https://github.com/skooner-k8s/skooner/issues), ask questions, and help us make the product better. Read our [Contributing Guidelines](https://github.com/skooner-k8s/skooner/blob/master/CONTRIBUTING.md) for more information.
 
-#### [GitHub Discussions](https://github.com/indeedeng/k8dash/discussions)
+#### [GitHub Discussions](https://github.com/skooner-k8s/skooner/discussions)
 Reach out and chat with the project founder, maintainers, contributors, and users. Don’t miss virtual talk announcements and planning call invites.
 
 #### Become a Maintainer
-The k8dash team is always looking for additional maintainers. If you’re interested, continue to [Path to Maintainership](path.html).
+The Skooner team is always looking for additional maintainers. If you’re interested, continue to [Path to Maintainership](path.html).
 
 
 

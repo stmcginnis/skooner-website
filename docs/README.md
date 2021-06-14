@@ -5,9 +5,9 @@ heroText: null
 tagline: A Kubernetes dashboard that helps you understand & manage your cluster.
 actions:
 - text: Get Started
-  link: https://github.com/indeedeng/k8dash 
+  link: https://github.com/skooner-k8s/skooner 
 - text: Join the Community
-  link: https://github.com/indeedeng/k8dash/discussions 
+  link: https://github.com/skooner-k8s/skooner/discussions 
 features:
 - title: Monitor Cluster Health
   image: /images/monitor.png
@@ -25,35 +25,35 @@ features:
   details: Monitor your cluster on your phone or tablet utilizing the 100% responsive UI.
   width: 25%
 ---
+
 ::: slot quick-install
 
 ### Start in as little as a minute
 
-Install k8dash via the available YAML file.
+Install Skooner (previously k8dash) via the available YAML file.
 
-* Download [kubernetes-k8dash.yaml &nbsp;](https://raw.githubusercontent.com/herbrandson/k8dash/master/kubernetes-k8dash.yaml)
+* Download [kubernetes-k8dash.yaml &nbsp;](https://raw.githubusercontent.com/skooner-k8s/skooner/master/kubernetes-k8dash.yaml)
 
-Deploy k8dash by running the following command:
+Deploy Skooner by running the following command:
 
 ```sh
-kubectl apply -f https://raw.githubusercontent.com/
-indeedeng/k8dash/master/kubernetes-k8dash.yaml
+kubectl apply -f https://raw.githubusercontent.com/skooner-k8s/skooner/master/kubernetes-k8dash.yaml
 
 ```
 
-See [k8dash installation](/install/) to learn more. 
+See [Skooner installation](/install/) to learn more. 
 
 :::
 
 ::: slot quick-start
 
-### Customize k8dash
+### Customize Skooner
 
-You can configure k8dash in multiple ways, making it totally customizable. 
+You can configure Skooner in multiple ways, making it totally customizable. 
 
 Features you can install include 
 
-- [OpenID Connect](install/#running-oidc-on-k8dash) for easy authentication
+- [OpenID Connect](install/#running-oidc-on-Skooner) for easy authentication
 - [NodePort](install/#running-k8dash-with-nodeport) for instances where you do not have an ingress server set up
 
 :::

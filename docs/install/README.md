@@ -3,7 +3,7 @@ title: Install
 ---
 
 ::: warning PSA
-k8dash is now Skooner! Please bear with us as we update our documentation to reflect this change.
+k8dash is now Skooner! We are currently updating our documentation to reflect this change.
 :::
 
 # Install 

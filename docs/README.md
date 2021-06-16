@@ -53,7 +53,7 @@ You can configure Skooner in multiple ways, making it totally customizable.
 
 Features you can install include 
 
-- [OpenID Connect](install/#running-oidc-on-Skooner) for easy authentication
+- [OpenID Connect](install/#running-oidc-on-skooner) for easy authentication
 - [NodePort](install/#running-k8dash-with-nodeport) for instances where you do not have an ingress server set up
 
 :::

@@ -11,7 +11,7 @@ module.exports = {
   repo: "https://github.com/skooner-k8s/skooner",
   repoButtonLabel: "Star",
   logo: "/images/Skooner-Logo-Horizontal-COLOR.png",
-  hostname: "https://skooner.io",
+  hostname: "https://skooner-k8s.github.io/skooner-website/",
   slackInviteURL: "",
   slackChannelURL: ""
 }

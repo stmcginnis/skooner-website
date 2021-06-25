@@ -79,5 +79,4 @@ module.exports = {
   description: siteData.description,
   repo: siteData.repo,
   repoButtonLabel: siteData.repoButtonLabel,
-  base: "/skooner-website/"
 }

@@ -3,7 +3,7 @@ $page-footer-desktop-height: 10rem;
 <div class="footer-cncf">
 <br><br>
    <h4>Skooner is a CNCF Sandbox project</h4>
-      <img src="$withBase('/images/cncf.png')" alt="Cloud Native Computing Foundation Logo">
+      <img :src="$withBase('/images/cncf.png')" alt="Cloud Native Computing Foundation Logo">
       <br><br>
       <p>Skooner was originally created by <a href="https://opensource.indeedeng.io/" target=”_blank” aria-label="Link opens in new tab">Indeed</a> and made successful by its community</a>.</p>
       <br>

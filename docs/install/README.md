@@ -10,12 +10,12 @@ k8dash is now Skooner! We are currently updating our documentation to reflect th
 
 ## Installing Skooner on Kubernetes Cluster
 
-To Install and run Skooner (previously k8dash) on your Kubernetes cluster
-1. Download [kubernetes-k8dash.yaml](https://raw.githubusercontent.com/skooner-k8s/skooner/master/kubernetes-k8dash.yaml).
+To Install and run Skooner on your Kubernetes cluster
+1. Download [kubernetes-skooner.yaml](https://raw.githubusercontent.com/skooner-k8s/skooner/master/kubernetes-skooner.yaml).
 2. Deploy Skooner by running the following command:
 ```sh
 kubectl apply -f 
-https://raw.githubusercontent.com/skooner-k8s/skooner/master/kubernetes-k8dash.yaml
+https://raw.githubusercontent.com/skooner-k8s/skooner/master/kubernetes-skooner.yaml
 ```
 To access Skooner, you must make it publicly visible. If you have an ingress server setup, you can accomplish this by adding a route:
 ```sh
@@ -62,14 +62,14 @@ Skooner relies heavily on metrics-server to display real-time cluster metrics. I
 
 ## Running OIDC on Skooner
 
-Skooner makes using OpenId Connect for authentication easy. Assuming your cluster is configured to use OIDC, all you need to do is create a secret containing your credentials and run the kubernetes-k8dash-oidc.yaml config.
+Skooner makes using OpenId Connect for authentication easy. Assuming your cluster is configured to use OIDC, all you need to do is create a secret containing your credentials and run the kubernetes-skooner-oidc.yaml config.
 To learn more about configuring a cluster for OIDC, check out these great links:
 * [Authenticating in Kubernetes](https://kubernetes.io/docs/reference/access-authn-authz/authentication/)
 * [Kubernetes Day 2 Operations: AuthN/AuthZ with OIDC and a Little Help From Keycloak](https://medium.com/@mrbobbytables/kubernetes-day-2-operations-authn-authz-with-oidc-and-a-little-help-from-keycloak-de4ea1bdbbe)
 * [kubectl with OpenID Connect](https://medium.com/@int128/kubectl-with-openid-connect-43120b451672)
 
 You can deploy Skooner with OIDC support using something like the following script...<br><br>
-**NOTE:** never trust a file downloaded from the internet. Make sure to review the contents of kubernetes-k8dash-oidc.yaml before running the script below.
+**NOTE:** never trust a file downloaded from the internet. Make sure to review the contents of kubernetes-skooner-oidc.yaml before running the script below.
 ```sh
 OIDC_URL=<put your endpoint url here... something like https://accounts.google.com>
 OIDC_ID=<put your id here... something like blah-blah-blah.apps.googleusercontent.com>
@@ -81,13 +81,13 @@ kubectl create secret -n kube-system generic Skooner \
 --from-literal=secret="$OIDC_SECRET"
 ```
 
-kubectl apply -f https://raw.githubusercontent.com/skooner-k8s/skooner/master/kubernetes-k8dash-oidc.yaml
+kubectl apply -f https://raw.githubusercontent.com/skooner-k8s/skooner/master/kubernetes-skooner-oidc.yaml
 
 Additionally, there are a few other OIDC options you can provide via environment variables. First is `OIDC_SCOPES`. The default value for this value is `openid email`, but additional scopes can also be added using something like`OIDC_SCOPES="openid email groups"`.<br><br>
 The other option is`OIDC_METADATA`. Skooner uses the excellent node-openid-client module. `OIDC_METADATA` will take a json string and pass it to the Client constructor. Docs here. For example, `OIDC_METADATA='{"token_endpoint_auth_method":"client_secret_post"}`
 
 ## Running Skooner with Nodeport
-If you do not have an ingress server setup, you can utilize a NodePort service as configured in the kubernetes-k8dash-nodeport.yaml. This is ideal when creating a single node master, or if you want to get up and running as fast as possible.
+If you do not have an ingress server setup, you can utilize a NodePort service as configured in the kubernetes-skooner-nodeport.yaml. This is ideal when creating a single node master, or if you want to get up and running as fast as possible.
 This will map the Skooner port 4654 to a randomly selected port on the running node. The assigned port can be found using
 
 ```sh

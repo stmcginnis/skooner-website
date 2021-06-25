@@ -30,14 +30,14 @@ features:
 
 ### Start in as little as a minute
 
-Install Skooner (previously k8dash) via the available YAML file.
+Install Skooner via the available YAML file.
 
-* Download [kubernetes-k8dash.yaml &nbsp;](https://raw.githubusercontent.com/skooner-k8s/skooner/master/kubernetes-k8dash.yaml)
+* Download [kubernetes-skooner.yaml &nbsp;](https://raw.githubusercontent.com/skooner-k8s/skooner/master/kubernetes-skooner.yaml)
 
 Deploy Skooner by running the following command:
 
 ```sh
-kubectl apply -f https://raw.githubusercontent.com/skooner-k8s/skooner/master/kubernetes-k8dash.yaml
+kubectl apply -f https://raw.githubusercontent.com/skooner-k8s/skooner/master/kubernetes-skooner.yaml
 
 ```
 
@@ -54,7 +54,7 @@ You can configure Skooner in multiple ways, making it totally customizable.
 Features you can install include 
 
 - [OpenID Connect](install/#running-oidc-on-skooner) for easy authentication
-- [NodePort](install/#running-k8dash-with-nodeport) for instances where you do not have an ingress server set up
+- [NodePort](install/#running-skooner-with-nodeport) for instances where you do not have an ingress server set up
 
 :::
 

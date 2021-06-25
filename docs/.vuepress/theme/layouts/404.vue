@@ -6,8 +6,8 @@
 
       <p>
       <img 
-       :src="$withBase('/images/k8dash-logo-stacked.png')" 
-       alt="k8dash logo" width="15%" /></p>
+       :src="$withBase('/images/Skooner-vertical-logo-COLOR.png')" 
+       alt="skooner logo" width="15%" /></p>
 
       <blockquote>{{ getMsg() }}</blockquote>
 

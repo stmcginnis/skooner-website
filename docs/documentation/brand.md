@@ -8,8 +8,6 @@ title: Brand Guidelines
 
 ## Brand and Logo
 
-When you use the Skooner project name, please keep it in lower case, even at the beginning of a sentence.
-
 See Skooner’s logos below. You can also find [Skooner logos on GitHub](https://github.com/skooner-k8s/skooner/tree/master/logo).
 
 ### Primary Logo

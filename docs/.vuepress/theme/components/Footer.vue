@@ -12,6 +12,8 @@ $page-footer-desktop-height: 10rem;
         <span class="copyright">
        &nbsp;&nbsp; © Copyright The Skooner Authors <br>
         <b>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/cncf/foundation/blob/master/code-of-conduct.md" target=”_blank” aria-label="Link opens in new tab">Code of Conduct</a></b>
+        &nbsp;|&nbsp;
+        <b><a href="https://www.linuxfoundation.org/legal/trademark-usage" target=”_blank” aria-label="Link opens in new tab">Trademarks</a></b>
         </span>
         <span class="footer-links">
           <a href="https://twitter.com/IndeedEng" target=”_blank”>

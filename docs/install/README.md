@@ -45,13 +45,17 @@ spec:
         # Give that service account root on the cluster
         kubectl create clusterrolebinding skooner-sa --clusterrole=cluster-admin --serviceaccount=default:skooner-sa
 
+        # For Kubernetes v1.21 and older
         # Find the secret that was created to hold the token for the SA
         kubectl get secrets
 
         # Show the contents of the secret to extract the token
         kubectl describe secret skooner-sa-token-xxxxx
+
+        # For Kubernetes v1.22 and newer
+        kubectl create token skooner-sa
         ```
-        Retrieve the `token` value from the secret and enter it into the login screen to access the dashboard.
+        Retrieve the `token` value and enter it into the login screen to access the dashboard.
       * You can also log in to Skooner with [OIDC](#running-oidc-on-Skooner) or [NodePort](#running-Skooner-with-nodeport).
 
 ## Installing Metrics Server
@@ -96,10 +100,3 @@ $ kubectl get svc --namespace=kube-system
 NAME       TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE
 skooner     NodePort    10.107.107.62   <none>        4654:32565/TCP   1m
 ```
-
-
-
-
-
-
-   
